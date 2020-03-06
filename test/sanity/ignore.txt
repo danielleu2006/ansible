@@ -76,8 +76,6 @@ lib/ansible/module_utils/facts/utils.py future-import-boilerplate
 lib/ansible/module_utils/facts/utils.py metaclass-boilerplate
 lib/ansible/module_utils/json_utils.py future-import-boilerplate
 lib/ansible/module_utils/json_utils.py metaclass-boilerplate
-lib/ansible/module_utils/network/asa/asa.py future-import-boilerplate
-lib/ansible/module_utils/network/asa/asa.py metaclass-boilerplate
 lib/ansible/module_utils/network/ios/ios.py future-import-boilerplate
 lib/ansible/module_utils/network/ios/ios.py metaclass-boilerplate
 lib/ansible/module_utils/network/ios/providers/cli/config/base.py future-import-boilerplate
@@ -212,27 +210,6 @@ lib/ansible/modules/network/aci/mso_tenant.py validate-modules:doc-required-mism
 lib/ansible/modules/network/aci/mso_tenant.py validate-modules:parameter-list-no-elements
 lib/ansible/modules/network/aci/mso_user.py validate-modules:doc-required-mismatch
 lib/ansible/modules/network/aci/mso_user.py validate-modules:parameter-list-no-elements
-lib/ansible/modules/network/asa/asa_acl.py validate-modules:doc-default-does-not-match-spec
-lib/ansible/modules/network/asa/asa_acl.py validate-modules:doc-missing-type
-lib/ansible/modules/network/asa/asa_acl.py validate-modules:parameter-list-no-elements
-lib/ansible/modules/network/asa/asa_acl.py validate-modules:parameter-type-not-in-doc
-lib/ansible/modules/network/asa/asa_acl.py validate-modules:undocumented-parameter
-lib/ansible/modules/network/asa/asa_acl.py yamllint:unparsable-with-libyaml
-lib/ansible/modules/network/asa/asa_command.py validate-modules:doc-default-does-not-match-spec
-lib/ansible/modules/network/asa/asa_command.py validate-modules:doc-missing-type
-lib/ansible/modules/network/asa/asa_command.py validate-modules:parameter-list-no-elements
-lib/ansible/modules/network/asa/asa_command.py validate-modules:parameter-type-not-in-doc
-lib/ansible/modules/network/asa/asa_command.py validate-modules:undocumented-parameter
-lib/ansible/modules/network/asa/asa_config.py validate-modules:doc-default-does-not-match-spec
-lib/ansible/modules/network/asa/asa_config.py validate-modules:doc-missing-type
-lib/ansible/modules/network/asa/asa_config.py validate-modules:implied-parameter-type-mismatch
-lib/ansible/modules/network/asa/asa_config.py validate-modules:parameter-list-no-elements
-lib/ansible/modules/network/asa/asa_config.py validate-modules:parameter-type-not-in-doc
-lib/ansible/modules/network/asa/asa_config.py validate-modules:undocumented-parameter
-lib/ansible/modules/network/asa/asa_config.py yamllint:unparsable-with-libyaml
-lib/ansible/modules/network/asa/asa_og.py validate-modules:doc-missing-type
-lib/ansible/modules/network/asa/asa_og.py validate-modules:parameter-list-no-elements
-lib/ansible/modules/network/asa/asa_og.py validate-modules:parameter-type-not-in-doc
 lib/ansible/modules/network/ios/_ios_interface.py validate-modules:doc-choices-do-not-match-spec
 lib/ansible/modules/network/ios/_ios_interface.py validate-modules:doc-default-does-not-match-spec
 lib/ansible/modules/network/ios/_ios_interface.py validate-modules:doc-elements-mismatch
@@ -1089,14 +1066,11 @@ lib/ansible/playbook/base.py pylint:blacklisted-name
 lib/ansible/playbook/collectionsearch.py required-and-default-attributes  # https://github.com/ansible/ansible/issues/61460
 lib/ansible/playbook/helpers.py pylint:blacklisted-name
 lib/ansible/playbook/role/__init__.py pylint:blacklisted-name
-lib/ansible/plugins/action/asa.py action-plugin-docs # base class for deprecated network platform modules using `connection: local`
 lib/ansible/plugins/action/ios.py action-plugin-docs # base class for deprecated network platform modules using `connection: local`
 lib/ansible/plugins/action/iosxr.py action-plugin-docs # base class for deprecated network platform modules using `connection: local`
 lib/ansible/plugins/action/normal.py action-plugin-docs # default action plugin for modules without a dedicated action plugin
 lib/ansible/plugins/action/nxos.py action-plugin-docs # base class for deprecated network platform modules using `connection: local`
 lib/ansible/plugins/cache/base.py ansible-doc!skip  # not a plugin, but a stub for backwards compatibility
-lib/ansible/plugins/doc_fragments/asa.py future-import-boilerplate
-lib/ansible/plugins/doc_fragments/asa.py metaclass-boilerplate
 lib/ansible/plugins/doc_fragments/backup.py future-import-boilerplate
 lib/ansible/plugins/doc_fragments/backup.py metaclass-boilerplate
 lib/ansible/plugins/doc_fragments/constructed.py future-import-boilerplate
