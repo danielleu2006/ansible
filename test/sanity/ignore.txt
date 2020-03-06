@@ -417,9 +417,6 @@ lib/ansible/modules/cloud/google/gcp_storage_bucket_access_control.py validate-m
 lib/ansible/modules/cloud/google/gcp_storage_object.py validate-modules:parameter-list-no-elements
 lib/ansible/modules/cloud/google/gcp_tpu_node.py validate-modules:parameter-list-no-elements
 lib/ansible/modules/cloud/google/gcp_tpu_node_info.py validate-modules:parameter-list-no-elements
-lib/ansible/modules/cloud/hcloud/hcloud_network_info.py validate-modules:return-syntax-error
-lib/ansible/modules/cloud/hcloud/hcloud_server.py validate-modules:parameter-list-no-elements
-lib/ansible/modules/cloud/hcloud/hcloud_server_network.py validate-modules:parameter-list-no-elements
 lib/ansible/modules/cloud/ovirt/ovirt_affinity_group.py future-import-boilerplate
 lib/ansible/modules/cloud/ovirt/ovirt_affinity_group.py metaclass-boilerplate
 lib/ansible/modules/cloud/ovirt/ovirt_affinity_group.py validate-modules:doc-required-mismatch
@@ -2365,8 +2362,6 @@ lib/ansible/plugins/doc_fragments/eos.py future-import-boilerplate
 lib/ansible/plugins/doc_fragments/eos.py metaclass-boilerplate
 lib/ansible/plugins/doc_fragments/files.py future-import-boilerplate
 lib/ansible/plugins/doc_fragments/files.py metaclass-boilerplate
-lib/ansible/plugins/doc_fragments/hcloud.py future-import-boilerplate
-lib/ansible/plugins/doc_fragments/hcloud.py metaclass-boilerplate
 lib/ansible/plugins/doc_fragments/intersight.py future-import-boilerplate
 lib/ansible/plugins/doc_fragments/intersight.py metaclass-boilerplate
 lib/ansible/plugins/doc_fragments/inventory_cache.py future-import-boilerplate
